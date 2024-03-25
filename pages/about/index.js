@@ -17,6 +17,17 @@ import {
   SiAdobephotoshop,
 } from "react-icons/si";
 
+// components
+import Avatar from "../../components/Avatar";
+import Circles from "../../components/Circles";
+
+//framer motion
+import { motion } from "framer-motion";
+import { fadeIn } from "../../variants";
+
+//counters
+import CountUp from "react-countup";
+
 //  data
 const aboutData = [
   {
@@ -88,16 +99,6 @@ const aboutData = [
     ],
   },
 ];
-// components
-import Avatar from "../../components/Avatar";
-import Circles from "../../components/Circles";
-
-//framer motion
-import { motion } from "framer-motion";
-import { fadeIn } from "../../variants";
-
-//counters
-import CountUp from "react-countup";
 
 const About = () => {
   const [index, setIndex] = useState(0);
@@ -204,7 +205,7 @@ const About = () => {
             {aboutData.map((item, itemIndex) => {
               return (
                 <div
-                  key={itemIndex}
+                  key={item.title+itemIndex}
                   className={`${
                     index === itemIndex &&
                     "text-accent after:w-[100%] after:bg-accent after:transition-all after:duration-700"
