@@ -1,3 +1,21 @@
+
+//import swiper react component
+import { Swiper, SwiperSlide } from "swiper/react";
+
+//import swiper styles
+import "swiper/css";
+import "swiper/css/free-mode";
+import "swiper/css/pagination";
+
+//import required modules"
+import { Pagination } from "swiper";
+
+// icons
+import { BsArrowRight } from "react-icons/bs";
+//next iamge
+import Image from "next/image";
+import { Children } from "react";
+
 // work slider data
 const workSlider = {
   slides: [
@@ -44,23 +62,6 @@ const workSlider = {
   ],
 };
 
-//import swiper react component
-import { Swiper, SwiperSlide } from "swiper/react";
-
-//import swiper styles
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-
-//import required modules"
-import { Pagination } from "swiper";
-
-// icons
-import { BsArrowRight } from "react-icons/bs";
-//next iamge
-import Image from "next/image";
-import { Children } from "react";
-
 const WorkSlider = () => {
   return (
     <Swiper
@@ -73,7 +74,7 @@ const WorkSlider = () => {
     >
       {workSlider.slides.map((slide, index) => {
         return (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={slide.title + index}>
             <div className="grid grid-cols-2 grid-rows-2 gap-4 cursor-pointer">
               {slide.images.map((image, index) => {
                 return (

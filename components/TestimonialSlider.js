@@ -1,3 +1,20 @@
+
+//import swiper react component
+import { Swiper, SwiperSlide } from "swiper/react";
+
+//import swiper styles
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
+
+//import required modules"
+import { Navigation, Pagination } from "swiper";
+
+// icons
+import { FaQuoteLeft } from "react-icons/fa";
+//next iamge
+import Image from "next/image";
+
 // testimonial data
 const testimonialSlider = [
   {
@@ -23,35 +40,19 @@ const testimonialSlider = [
   },
 ];
 
-//import swiper react component
-import { Swiper, SwiperSlide } from "swiper/react";
-
-//import swiper styles
-import "swiper/css";
-import "swiper/css/navigation";
-import "swiper/css/pagination";
-
-//import required modules"
-import { Navigation, Pagination } from "swiper";
-
-// icons
-import { FaQuoteLeft } from "react-icons/fa";
-//next iamge
-import Image from "next/image";
-
 const TestimonialSlider = () => {
   return (
     <Swiper
-      navigation={true}
-      pagination={{
-        clickable: true,
-      }}
-      modules={[Navigation, Pagination]}
-      className="h-[400px]"
+    navigation={true}
+    pagination={{
+      clickable: true,
+    }}
+    modules={[Navigation, Pagination]}
+    className="h-[400px]"
     >
       {testimonialSlider.map((person, index) => {
         return (
-          <SwiperSlide key={index}>
+          <SwiperSlide key={person.name + index}>
             <div className="flex flex-col items-center md:flex-row gap-x-8 h-full px-16">
               {/* avatar, name , posiotion */}
               <div className="w-full max-w-[300px] flex flex-col xl:justify-center items-center relative mx-auto xl:mx-0">
