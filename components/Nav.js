@@ -8,6 +8,12 @@ import {
   HiEnvelope,
 } from 'react-icons/hi2';
 
+// next link
+import Link from 'next/link';
+
+//next router
+import { useRouter } from 'next/router';
+
 // nav data
 export const navData = [
   { name: 'home', path: '/', icon: <HiHome /> },
@@ -26,12 +32,6 @@ export const navData = [
   },
 ];
 
-// next link
-import Link from 'next/link';
-
-//next router
-import { useRouter } from 'next/router';
-
 const Nav = () => { 
   const router = useRouter();
   const pathname = router.pathname
@@ -45,7 +45,7 @@ const Nav = () => {
     xl:rounded-full'>
       {navData.map((link, index) => {
       return (
-      <Link className={`${link.path==pathname && 'text-accent'} relative flex items-center group hover:text-accent transition-all duration-300`} href={link.path} key={index}>
+      <Link className={`${link.path==pathname && 'text-accent'} relative flex items-center group hover:text-accent transition-all duration-300`} href={link.path} key={link.name + index}>
         {/* tooltip */}
         <div className='absolute pr-14 right-0 hidden xl:group-hover:flex'> 
         <div className='bg-white relative flex text-primary items-center 
