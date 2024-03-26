@@ -142,7 +142,7 @@ const About = () => {
           >
             10 years ago, I began freelancing as a developer. Since then, I'live
             done remote work for agencis, consulted for startups, and
-            colllaborated on digital products for business and consumer use.
+            collaborated on digital products for business and consumer use.
           </motion.p>
           {/*counters numeros*/}
           <motion.div
@@ -169,7 +169,7 @@ const About = () => {
                   <CountUp start={0} end={250} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Sastifaced clients
+                  Satisfaced clients
                 </div>
               </div>
               {/* projects */}
@@ -230,8 +230,8 @@ const About = () => {
                   <div>{item.stage}</div>
                   <div className="flex gap-x-4">
                     {/* icons */}
-                    {item.icons?.map((icon, itemIndex) => {
-                      return <div key={itemIndex} className="text-2xl text-white">{icon}</div>;
+                    {item.icons?.map((icon, iconIndex) => {
+                      return <div key={iconIndex} className="text-2xl text-white">{icon}</div>;
                     })}
                   </div>
                 </div>
