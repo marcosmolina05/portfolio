@@ -44,8 +44,8 @@ const aboutData = [
     //       <SiFramer />,
     //       <FaWordpress />,
     //     ],
-    //   },
-    //   {
+       },
+      {
         title: "UI/UX Design",
         icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
       },
