@@ -46,8 +46,8 @@ const aboutData = [
     //     ],
     //   },
     //   {
-    //     title: "UI/UX Design",
-    //     icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
+        title: "UI/UX Design",
+        icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
       },
     ],
   },
