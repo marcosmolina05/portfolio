@@ -34,7 +34,7 @@ const aboutData = [
     title: "skills",
     info: [
       {
-    //     title: "Web Development",
+        title: "Web Development",
     //     icons: [
     //       <FaHtml5 />,
     //       <FaCss3 />,
