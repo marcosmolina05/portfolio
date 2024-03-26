@@ -32,8 +32,8 @@ import CountUp from "react-countup";
 const aboutData = [
   {
     title: "skills",
-    // info: [
-    //   {
+    info: [
+      {
     //     title: "Web Development",
     //     icons: [
     //       <FaHtml5 />,
@@ -48,8 +48,8 @@ const aboutData = [
     //   {
     //     title: "UI/UX Design",
     //     icons: [<FaFigma />, <SiAdobexd />, <SiAdobephotoshop />],
-    //   },
-    // ],
+      },
+    ],
   },
   // {
   //   title: "awards",
