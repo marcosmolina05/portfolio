@@ -37,7 +37,7 @@ const Home = () => {
             animate="show" 
             exit="hidden" className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-16"
             >
-            skjaksjaksjaksjaksjjhbhgufhjkojkvkjjkfjkf
+            Marcos Molina
             </motion.p>
             {/* bnt */}
             <div className="z-10 flex justify-center xl:hidden relative">
@@ -62,7 +62,7 @@ const Home = () => {
       </div>
       {/* particles*/}
       <ParticlesContainer />
-      {/* avatar img */}
+      {/* avatar img */}      
       <motion.div  variants={fadeIn("up", 0.5)} 
         initial="hidden" 
         animate="show" 
@@ -73,7 +73,7 @@ const Home = () => {
       <Avatar />
       </motion.div>
     </div>
-  </div>; 
+  </div>;     
 };
 
 export default Home;
