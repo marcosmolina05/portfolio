@@ -68,7 +68,7 @@ function MyApp({ Component, pageProps }) {
              
             <meta
               property="og:image"
-              content="https://raw.githubusercontent.com/marcosmolina05/portfolio/main/public/.png"
+              content="https://raw.githubusercontent.com/marcosmolina05/portfolio/main/public/ogimage-2.png"
             />
             <meta property="og:image:type" content="image/png" />
             <meta property="og:image:width" content="300" />
