@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800.000" height="600.000" viewBox="0.0 0.0 800.000 600.000" version="1.1">
+  <title>Produce by Acme CAD Converter</title>
+  <desc>Produce by Acme CAD Converter</desc>
+<path d="M191.01 3.6L223.28 31.82M223.28 31.82L223.28 570.09M223.28 570.09L191.01 598.3M191.01 598.3L191.01 3.6"
+fill="none" stroke="white" stroke-width="5"/>
+<path d="M191.01 598.3L223.28 570.09"
+fill="none" stroke="white" stroke-width="5"/>
+<path d="M191.01 3.6L223.28 31.82"
+fill="none" stroke="white" stroke-width="5"/>
+<path d="M191.01 3.6L223.28 31.82M223.28 31.82L223.28 570.09M223.28 570.09L191.01 598.3M191.01 598.3L191.01 3.6"
+fill="none" stroke="white" stroke-width="5"/>
+<path d="M608.99 130.69L576.72 158.91M576.72 158.91L576.72 570.09M576.72 570.09L608.99 598.3M608.99 598.3L608.99 130.69"
+fill="none" stroke="white" stroke-width="1"/>
+<path d="M223.28 31.82L223.28 75.97M223.28 75.97L376.35 218.83M376.35 218.83L334.39 257.98M334.39 257.98L334.39 302.13M334.39 302.13L608.99 45.85M608.99 45.85L608.99 1.7M608.99 1.7L400 196.75M400 196.75L223.28 31.82"
+fill="none" stroke="white" stroke-width="5"/>
+<path d="M423.76 248.97L456.96 277.77M456.96 277.77L423.76 306.58M423.76 306.58L423.76 248.97"
+fill="none" stroke="white" stroke-width="5"/>
+<path d="M608.99 74.69L608.99 101.91M608.99 101.91L498.8 204.75M498.8 204.75L498.8 177.53M498.8 177.53L608.99 74.69"
+stroke="#044B94" fill="#044B94" fill-opacity="1" stroke-width="1" stroke-opacity="1"/>
+<path d="M576.72 158.91L576.72 186.13M576.72 186.13L498.8 258.85M498.8 258.85L498.8 231.63M498.8 231.63L576.72 158.91"
+fill="none" stroke="white" stroke-width="5"/>
+<path d="M266.25 256.16L298.52 284.37M298.52 284.37L298.52 500.67M298.52 500.67L266.25 528.89M266.25 528.89L266.25 256.16"
+fill="none" stroke="white" stroke-width="5"/>
+<path d="M533.75 256.16L501.48 284.37M501.48 284.37L501.48 500.67M501.48 500.67L533.75 528.89M533.75 528.89L533.75 256.16"
+fill="none" stroke="white" stroke-width="5"/>
+<path d="M298.52 284.37L298.52 328.52M298.52 328.52L400 423.23M400 423.23L501.48 328.52M501.48 328.52L501.48 284.37M501.48 284.37L400 379.08M400 379.08L298.52 284.37"
+fill="#dc2626" stroke="white" stroke-width="25"/>
+</svg>
