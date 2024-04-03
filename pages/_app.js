@@ -67,7 +67,7 @@ function MyApp({ Component, pageProps }) {
             />
             <meta
               property="og:image"
-              content="https://fvvtqpkgirpnlmiemgcn.supabase.co/storage/v1/object/sign/logo/mario_molina.png?token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmwiOiJsb2dvL21hcmlvX21vbGluYS5wbmciLCJpYXQiOjE2NzAwOTMxOTUsImV4cCI6MTk4NTQ1MzE5NX0.Vvz2TljhLPuPpBiyNBIXgOUs98PsJr921WIKX-Yiess"
+              content="https://raw.githubusercontent.com/marcosmolina05/portfolio/main/public/bulb.png"
             />
             <meta property="og:image:type" content="image/png" />
             <meta property="og:image:width" content="300" />
