@@ -63,11 +63,12 @@ function MyApp({ Component, pageProps }) {
             <meta property="og:locale" content="es-Argentina" />
             <meta
               property="og:description"
-              content="Cloud storage: security, accessibility, unlimited storage, collaboration, data protection, synchronization and freeing up space."
+              content="Marcos Molina Araoz. Me especializo como Sales Developer Representative, Appointment Setter, Content Manager y Web Development."
             />
+             
             <meta
               property="og:image"
-              content="https://raw.githubusercontent.com/marcosmolina05/portfolio/main/public/bulb.png"
+              content="https://raw.githubusercontent.com/marcosmolina05/portfolio/main/public/avatar-3.png"
             />
             <meta property="og:image:type" content="image/png" />
             <meta property="og:image:width" content="300" />
