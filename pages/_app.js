@@ -21,6 +21,9 @@ function MyApp({ Component, pageProps }) {
             {" "}
             {/* Coloca el componente Head aquí */}
             <title>Marcos Molina - Portfolio</title>
+            <meta name="description" content="Descripción de la página"/>
+            <meta name="keywords" content="appointment setter, editor de videos, content manager"/>
+            <meta name="author" content="Marcos Molina Araoz"/>
             <link rel="icon" href="/favicon/favicon.ico" sizes="16x16" />
             <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"/>
             <link rel="icon" href="/favicon/favicon-32x32.png" type="image/png" sizes="32x32" />
