@@ -1,3 +1,3 @@
 # MARCOS MOLINA PORTFOLIO PERSONAL
 
-[![Preview](./readme-img.png)](https://marcosmolinaaraoz.com.ar/)
+[![Preview](./public/readme-img.png)](https://marcosmolinaaraoz.com.ar/)
