@@ -22,7 +22,7 @@ const Services = () => {
               exit="hidden"
               className="h2 xl:mt-8"
             >
-              My Services <span className="text-accent">.</span>
+              Mi Servicios <span className="text-accent">.</span>
             </motion.h2>
             <motion.p
               variants={fadeIn("up", 0.4)}
@@ -31,8 +31,8 @@ const Services = () => {
               exit="hidden"
               className="mb-4 max-w-[400px] mx-auto lg:mx-0"
             >
-              Lorem ipsum dolor sit, amet cibsectetur adipisicing elit. A
-              eveniet dignsisimon distinctio tempore harum laundatium.{" "}
+              Potenciando tus Ventas y Presencia Online con Soluciones Integrales: Configuración de Citas, Representación Comercial, Desarrollo Web Completo y Gestión Estratégica de Contenido.
+              {" "}
             </motion.p>
           </div>
           <motion.div

@@ -8,6 +8,7 @@ import {
   FaReact,
   FaWordpress,
   FaFigma,
+  FaSalesforce,
 } from "react-icons/fa";
 
 import {
@@ -15,6 +16,12 @@ import {
   SiFramer,
   SiAdobexd,
   SiAdobephotoshop,
+  SiAdobepremierepro,
+  SiZoho,
+  SiHubspot,
+  SiAdobeaftereffects,
+  SiAdobeillustrator,
+  SiTrello,
 } from "react-icons/si";
 
 // components
@@ -34,70 +41,88 @@ const aboutData = [
     title: "skills",
     info: [
       {
-        title: "Web Development",
-        icons: [
-          FaHtml5,
-          FaCss3,
-          FaJs,
-          FaReact,
-          SiNextdotjs,
-          SiFramer,
-          FaWordpress,
-        ],
+        title: "Appointment Setter.",
        },
-      {
-        title: "UI/UX Design",
-        icons: [FaFigma, SiAdobexd, SiAdobephotoshop],
-      },
-    ],
+       {
+         title: "Content Manager.",
+       },
+       {
+         title: "Full Stack Web Developer.",
+       },
+       {
+         title: "Sales Developer Representative.",
+       },
+      ],
+
   },
-  {
-    title: "awards",
-    info: [
-      {
-        title: "Webby Awards - Honoree",
-        stage: "2011 - 2012",
-      },
-      {
-        title: "Adobe Design Achievement Awards - Finalist",
-        stage: "2009 - 2010",
-      },
-    ],
-  },
+  // {
+  //   title: "awards",
+  //   info: [
+  //     {
+  //       title: "Webby Awards - Honoree",
+  //       stage: "2011 - 2012",
+  //     },
+  //     {
+  //       title: "Adobe Design Achievement Awards - Finalist",
+  //       stage: "2009 - 2010",
+  //     },
+  //   ],
+  // },
   {
     title: "experience",
     info: [
       {
-        title: "UX/UI Designer - XYZ Company",
-        stage: "2012 - 2023",
+        title: "Appoint Setting - Grovat",
+        stage: "2023 - 2024",
       },
       {
-        title: "Web Developer - ABC Agency",
-        stage: "2010 - 2012",
+        title: "Content Manager - XYZ Company",
+        stage: "2023 - 2024",
       },
-      {
-        title: "Intern - DEF Corporation",
-        stage: "2008 - 2010",
-      },
+      // {
+      //   title: "Intern - DEF Corporation",
+      //   stage: "2008 - 2010",
+      // },
     ],
   },
   {
-    title: "credentials",
+    title: "software",
     info: [
       {
-        title: "Web Development - ABC University, LA, CA",
-        stage: "2011",
+        icons: [SiZoho, FaSalesforce, SiHubspot, SiTrello ],
       },
       {
-        title: "Computer Science Diploma - AV Technical Institute",
-        stage: "2009",
+        icons: [
+          SiAdobexd,
+          SiAdobephotoshop,
+          SiAdobepremierepro,
+
+          SiAdobeaftereffects,
+          SiAdobeillustrator,
+          SiNextdotjs,
+          FaFigma,
+        ]
       },
-      {
-        title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
-        stage: "2006",
-      },
+    
     ],
-  },
+  }
+  // {
+  //   title: "credentials",
+  //   info: [
+  //     {
+  //       title: "Web Development - ABC University, LA, CA",
+  //       stage: "2011",
+  //     },
+  //     {
+  //       title: "Computer Science Diploma - AV Technical Institute",
+  //       stage: "2009",
+  //     },
+  //     {
+  //       title: "Certified Graphic Designer - ABC Institute, Los Angeles, CA",
+  //       stage: "2006",
+  //     },
+  //   ],
+  // },
 ];
 
 const About = () => {
@@ -130,8 +155,7 @@ const About = () => {
             exit="hidden"
             className="h2"
           >
-            Captivating <span className="text-accent">stories</span> birth
-            magnificent designs.
+            Optimizando <span className="text-accent">Ventas</span> Con Habilidades Digitales <span className="text-accent">.</span>
           </motion.h2>
           <motion.p
             variants={fadeIn("right", 0.4)}
@@ -140,9 +164,10 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0"
           >
-            10 years ago, I began freelancing as a developer. Since then, I live
-            done remote work for agencis, consulted for startups, and
-            collaborated on digital products for business and consumer use.
+            Eleva tu estrategia de ventas con nuestro enfoque integral,
+            abarcando desde el desarrollo web completo hasta la gestión
+            estratégica de contenidos, para potenciar tu presencia online y
+            convertir visitantes en clientes.
           </motion.p>
           {/*counters numeros*/}
           <motion.div
@@ -156,20 +181,20 @@ const About = () => {
               {/* experience */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2 ">
-                  <CountUp start={0} end={10} duration={5} /> +
+                  <CountUp start={0} end={2} duration={5} /> +
                 </div>
                 {/* clients */}
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Years of experience
+                  Años de Experiencia.
                 </div>
               </div>
               {/* clients */}
               <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2 ">
-                  <CountUp start={0} end={250} duration={5} /> +
+                  <CountUp start={0} end={10} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Satisfaced clients
+                  Clientes Sastifechos.
                 </div>
               </div>
               {/* projects */}
@@ -178,16 +203,16 @@ const About = () => {
                   <CountUp start={0} end={650} duration={5} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Finished projects
+                  Ventas Realizadas.
                 </div>
               </div>
               {/* awards */}
               <div className="relative flex-1">
                 <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2 ">
-                  <CountUp start={0} end={8} duration={8} /> +
+                  <CountUp start={0} end={50} duration={6} /> +
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
-                  Winning awards
+                  Projectos Terminados
                 </div>
               </div>
             </div>
@@ -227,7 +252,7 @@ const About = () => {
                 >
                   {/* title */}
                   <div className="font-light mb-2 md:mb-0">{item.title}</div>
-                  <div className="hidden md:flex ">-</div>
+                 
                   <div>{item.stage}</div>
                   <div className="flex gap-x-4">
                     {/* icons */}

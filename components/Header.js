@@ -16,7 +16,7 @@ const Header = () => {
           {/* logo */}
           <Link href={"/"}>
           {/* <Image src={"/logo.svg"} width={220} height={48} alt="" priority={true}/> */}
-          <h1 className="text-2xl border-b-2 border-red-700 border-solid">Marcos Molina <span className="text-accent">.</span></h1>
+          <h1 className="text-2xl border-b-2 border-blue-600 border-solid">Marcos Molina <span className="text-accent">.</span></h1>
           </Link>
           {/* social*/}
           <Socials />

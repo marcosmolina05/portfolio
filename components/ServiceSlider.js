@@ -13,6 +13,7 @@ import {
   RxDesktop,
   RxReader,
   RxRocket,
+  RxVideo,
   RxArrowTopRight,
 } from "react-icons/rx";
 
@@ -22,30 +23,35 @@ import { FreeMode, Pagination } from "swiper";
 // service data
 const serviceData = [
   {
-    icon: <RxCrop />,
-    title: "Branding",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    icon: <RxRocket />,
+    title: "Appointment Setter",
+    description: "Gestionando tus citas para optimizar tu agenda y tu tiempo.",
   },
   {
-    icon: <RxPencil2 />,
-    title: "Design",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    icon: <RxVideo />,
+    title: "Content Mannager",
+    description: "Experto en edición de video para potenciar tu marca.",
   },
   {
     icon: <RxDesktop />,
-    title: "Development",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Web Developer",
+    description: "Desarrollador web especializado en crear sitios efectivos."
   },
   {
-    icon: <RxReader />,
-    title: "Copywriting",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    icon: <RxCrop />,
+    title: "Marketing",
+    description: "Estrategias efectivas para impulsar tu presencia en línea.",
   },
-  {
-    icon: <RxRocket />,
-    title: "SEO",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-  },
+  // {
+  //   icon: <RxPencil2 />,
+  //   title: "Design",
+  //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  // },
+  // {
+  //   icon: <RxReader />,
+  //   title: "Copywriting",
+  //   description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  // },
 ];
 
 const ServiceSlider = () => {
