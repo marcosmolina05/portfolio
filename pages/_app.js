@@ -23,7 +23,7 @@ function MyApp({ Component, pageProps }) {
             <title>Marcos Molina - Portfolio</title>
             <meta
               name="description"
-              content="Marcos Molina Araoz. Me especializo como Sales Developer Representative, Appointment Setter, Content Manager y Web Development."
+              content="Marcos Molina Araoz."
             />
             <meta
               name="keywords"
