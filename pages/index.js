@@ -5,6 +5,8 @@ import Image from "next/image";
 import ParticlesContainer from "../components/ParticlesContainer";
 import ProjectBtn from "../components/ProjectsBtn";
 import Avatar from "../components/Avatar";
+import WhatsappButton from "../components/WhatsappButton";
+
 
 // framer motion
 import {motion} from "framer-motion";
@@ -72,7 +74,16 @@ const Home = () => {
         className="w-full h-full max-w-[737px] max-h-[678px] absolute -bottom-32
       lg:bottom-0 lg:right-[8%]">  
       <Avatar />
-      </motion.div>
+      </motion.div>            
+      <motion.div  variants={fadeIn("up", 0.5)} 
+        initial="hidden" 
+        animate="show" 
+        exit="hidden" 
+        transition={{ duration: 1, ease: "easeInout" }}
+        className="w-full h-full max-w-[150px] max-h-[180px] absolute bottom-0
+      lg:bottom-0 lg:right-[0%]">  
+      <WhatsappButton/>
+      </motion.div>            
     </div>
   </div>;     
 };
