@@ -139,7 +139,7 @@ const Contact = () => {
             exit="hidden"
             className="h2">
                 Mensaje
-                <span className="text-accent"> Enviado!</span>
+                <span className="text-accent"> Enviado!.</span>
               </motion.h2>
             </motion.div>
           )}
