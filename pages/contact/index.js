@@ -1,8 +1,17 @@
+//react
 import React, { useState } from "react";
+
+//component
 import Circles from "../../components/Circles";
 import emailjs from "@emailjs/browser";
+
+//icons
 import { BsArrowRight } from "react-icons/bs";
+
+//framer
 import { motion } from "framer-motion";
+
+//variantes
 import { fadeIn } from "../../variants";
 
 const Contact = () => {
@@ -62,7 +71,7 @@ const Contact = () => {
             exit="hidden"
             className="h2 text-center mb-12"
           >
-            Lets <span className="text-accent">connect.</span>
+           <span className="text-accent">Conectemos.</span>
           </motion.h2>
           {!isSent ? ( // Renderizar el formulario si isSent es false
             <motion.form
@@ -119,7 +128,7 @@ const Contact = () => {
                  overflow-hidden hover:border-accent group"
               >
                 <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
-                  Lets talk
+                  Enviar
                 </span>
                 <BsArrowRight className="-translate-y-[120%] opacity-0 group-hover:flex group-hover:-translate-y-0 group-hover:opacity-100 transition-all duration-500 absolute text-[22px]" />
               </motion.button>
@@ -139,7 +148,7 @@ const Contact = () => {
             exit="hidden"
             className="h2">
                 Mensaje
-                <span className="text-accent"> Enviado!.</span>
+                <span className="text-accent"> Enviado!</span>
               </motion.h2>
             </motion.div>
           )}
